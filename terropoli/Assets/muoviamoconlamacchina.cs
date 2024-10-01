@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GuidaAutomatica : MonoBehaviour
+public class muoviamoconlamacchina : MonoBehaviour
 {
     public float speed = 10f;         // Velocità della macchina
     public float turnSpeed = 150f;     // Velocità di rotazione quando si gira (gradi per secondo)
@@ -58,3 +58,4 @@ public class GuidaAutomatica : MonoBehaviour
         }
     }
 }
+
