@@ -496,7 +496,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -510,7 +510,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 100010}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59bec9276d5071c42bafb8cb033099e6, type: 3}
+  m_Script: {fileID: 11500000, guid: 29c80fa842ec7b8478430bb2b1e7cc94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   motorForce: 1000
@@ -533,10 +533,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 100010}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 704e9a259dcd8934895439b2551a8e17, type: 3}
+  m_Script: {fileID: 11500000, guid: 935037ae7bb6fcf4d8887d929ba8a900, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 4
+  turnSpeed: 90
 --- !u!1 &4392031848000587574
 GameObject:
   m_ObjectHideFlags: 0
